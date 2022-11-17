@@ -132,7 +132,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('https://get.pxhere.com/photo/music-concert-band-playing-musician-performance-art-lights-stage-performance-singing-guitars-entertainment-rock-music-performing-arts-entertainers-musical-theatre-night-ranger-1250324.jpg') top center / cover no-repeat;
+    background: url("../img/banner/chicago.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -271,9 +271,9 @@ html {
     padding: 16px;
 }
 
-.place-heading {
+/* .place-heading {
     
-}
+} */
 
 .place-time {
     margin-top: 15px;
