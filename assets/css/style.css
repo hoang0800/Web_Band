@@ -15,6 +15,29 @@ html {
     color: #fff !important;
 }
 
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+.col-3 {
+    float: left;
+    width: 33.33333%;
+}
+
 /* Header */
 #header {
     height: 46px;
@@ -156,7 +179,7 @@ html {
 /* Container */
 #container .content-section {
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -185,15 +208,14 @@ html {
 }
 
 #container .member-list {
-    padding-top: 48px;
+    margin-top: 48px;
     text-align: center;
-    /* overflow: hidden; */
 }
 
-#container .member-item {
+/* #container .member-item {
     float: left;
     width: 33.33333%;
-}
+} */
 
 #container .member-name {
     font-size: 15px;
@@ -245,15 +267,10 @@ html {
 /* Places */
 .places-list {
     margin-top: 32px;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding-bottom: 48px;
 }
 
 .place-item {
-    float: left;
     width: 33.33333%;
-    padding: 0 8px;
 }
 
 .place-img {
@@ -262,7 +279,7 @@ html {
 }
 
 .place-img:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .place-content {
@@ -300,3 +317,16 @@ html {
 }
 
 /* contact */
+.contact-content {
+    padding-top: 48px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i {
+    width: 30px;
+    display: inline-block;
+}
